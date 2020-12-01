@@ -19,5 +19,9 @@
     <string name="classes">Classes</string>
     <string name="addClass">"Add Class"</string>
 
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    // in assignments list by class
+    <string name="className">Example Class</string>
+    <string name="deleteClass">Delete Class</string>
+    <string name="assignments">Assignments</string>
+    <string name="addAssignment">New Assignment</string>
 </resources>

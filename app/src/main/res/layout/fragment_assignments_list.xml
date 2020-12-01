@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".AssignmentsListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/className"
+            android:textSize="30sp"
+            android:layout_marginStart="115dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginLeft="175dp"
+            android:contentDescription="@string/deleteClass"
+            android:layout_marginStart="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assignments"
+            android:textSize="22sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="25dp" />
+
+        <ImageButton
+            android:id="@+id/btnAddAssignment"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:contentDescription="@string/addAssignment"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

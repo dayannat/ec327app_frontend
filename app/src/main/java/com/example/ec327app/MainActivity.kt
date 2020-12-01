@@ -6,7 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
+import android.widget.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val menuScreen = MainMenuFragment()
-        val homeScreen = SecondFragment()
-
+        //switching between fragments
+        //val menuScreen = MainMenuFragment()
+        //val homeScreen = HomeScreenFragment()
         supportFragmentManager.beginTransaction().apply {
-            replace(R.id.mainContainer, SecondFragment())
+            replace(R.id.mainContainer, HomeScreenFragment())
             addToBackStack(null)
             commit()
 
@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
                 addToBackStack(null)
                 commit()
             }
-
         }
+
         }
     }
 
